@@ -1,0 +1,17 @@
+internal class Program
+{
+    static void Main()
+    {
+        int x = 10;
+        bool verificacao = x % 2 == 0; 
+        if (verificacao)
+        {
+            Console.WriteLine("O número é PAR.");
+            verificacao = true;
+        }
+        else
+        {
+            Console.WriteLine("O número é ÍMPAR.");
+            verificacao = false;
+        }
+    }
