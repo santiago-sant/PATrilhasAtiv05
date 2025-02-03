@@ -1,0 +1,13 @@
+lass Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número: ");
+        int entrada1 = int.Parse(Console.ReadLine());
+
+        int valorAbsoluto = (entrada1 < 0) ? -entrada1 : entrada1;
+
+        Console.WriteLine("O valor absoluto de {0} é {1}.", entrada1, valorAbsoluto);
+        Console.ReadKey();
+    }
+}
