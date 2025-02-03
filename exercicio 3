@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<int> lista = new List<int>();
+        
+        string resultado = lista.Count == 0 ? "A lista está vazia." : "A lista não está vazia.";
+        Console.WriteLine(resultado);
+
+        Console.ReadKey();
+    }
