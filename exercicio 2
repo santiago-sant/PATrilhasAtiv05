@@ -1,0 +1,16 @@
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite um número");
+        int entrada1 = Convert.ToInt32(Console.ReadLine());
+        
+         Console.WriteLine("Digite outro número");
+        int entrada2 = Convert.ToInt32(Console.ReadLine());
+        
+        string resultado = (entrada1 > entrada2) ? "O primeiro número e maior" : "O segundo número e maior";  
+        Console.WriteLine(resultado);  
+
+        Console.ReadKey();  
+    }
+}
