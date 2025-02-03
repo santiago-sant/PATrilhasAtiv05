@@ -1,0 +1,16 @@
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite sim ou não:");
+        string entrada1 = Console.ReadLine().ToLower(); 
+
+       
+        bool resultado = (entrada1 == "sim");
+
+        Console.WriteLine("O resultado é "  + resultado );
+
+        Console.Write("Pressione qualquer tecla para sair...");
+        Console.ReadKey();
+    }
+}
