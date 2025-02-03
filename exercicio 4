@@ -1,0 +1,17 @@
+using System;
+
+  class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Digite uma palavra:");
+        string palavra = Console.ReadLine();
+        
+        string resultado = !string.IsNullOrWhiteSpace(palavra) ? "A string não é vazia." : "A string e vazia";
+        
+        Console.WriteLine(resultado);
+
+        Console.Write("Pressione qualquer tecla para sair...");
+        Console.ReadKey();
+    }
+}
