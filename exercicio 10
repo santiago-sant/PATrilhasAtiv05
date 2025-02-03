@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string texto = null; 
+
+        string resultado = (texto == null) ? "A variável é nula." : "A variável não é nula.";
+
+        Console.WriteLine(resultado);
+        Console.ReadKey();
+    }
+}
