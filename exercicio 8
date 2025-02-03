@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        
+        string input = "123";
+
+       
+        int numero = int.TryParse(input, out numero) ? numero : 0;
+
+        Console.WriteLine("O número convertido é: " + numero);
+        Console.ReadKey();
+    }
+}
