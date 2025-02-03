@@ -1,17 +1,13 @@
-internal class Program
+class Program
 {
     static void Main()
     {
-        int x = 10;
-        bool verificacao = x % 2 == 0; 
-        if (verificacao)
-        {
-            Console.WriteLine("O número é PAR.");
-            verificacao = true;
-        }
-        else
-        {
-            Console.WriteLine("O número é ÍMPAR.");
-            verificacao = false;
-        }
+        Console.WriteLine("Digite um número");
+        int entrada1 = Convert.ToInt32(Console.ReadLine());
+        
+        string resultado = (entrada1 % 2 == 0) ? "par" : "ímpar";  
+        Console.WriteLine("O número é " +  resultado);  
+
+        Console.ReadKey();  
     }
+}
